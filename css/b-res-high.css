@@ -9,9 +9,11 @@
 		font-size: 16px;
 	}
 	.headlink {
-		width: 100px;
+		min-width: 70px;
 		height: 40px;
 		margin: 2px;
+		padding-left: 15px;
+		padding-right: 15px;
 		border-radius: 5px;
 	}
 

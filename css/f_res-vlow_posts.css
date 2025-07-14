@@ -1,0 +1,5 @@
+/* posts module patch - very low resolution */
+.post,
+#pages {
+	width: 220px;
+}
