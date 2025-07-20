@@ -1,7 +1,7 @@
 # Simpleblog template for Bash SSG
 This is a transplant of the default skin from the Simpleblog project.  
 If you want include other files, use `static` module.  
-Requires Bash SSG v1.0
+Requires Bash SSG v1.1
 
 * `css` - styles  
 	all files from this directory will be merged to `assets/template-simpleblog.css` file
@@ -13,6 +13,14 @@ Requires Bash SSG v1.0
 Place all files in the `database/templates/template-simpleblog` directory  
 or in the `modules/templates/template-simpleblog` directory  
 and edit the appropriate configuration file in `database/defaults.rc.d` to activate this template.
+
+### Additional CSS elements
+* `.img-center`  
+	centers the image horizontally via the `display: block`
+* `.hidden-element`  
+	adds `display: none`
+* `.quotation`  
+	centered italic text
 
 ### Resources
 This template supports the following modules:
