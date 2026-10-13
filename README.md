@@ -30,6 +30,12 @@ This template supports the following modules:
 * posts-arch
 * posts-tags
 
+### Settings
+If you want to change any template setting, add lines e.g. `__template_name_css__='style.css'` in some file in `database/defaults.rc.d` (preferably to `a_templates.rc`, though it doesn't really matter).
+* `__template_name_css__`  
+	name of the output file with the style sheet  
+	default: `template-simpleblog.css`
+
 ### Patching template
 Create `database/templates/template-simpleblog.patches`,  
 place new files in this directory (keep template's directory tree)  
